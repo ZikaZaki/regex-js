@@ -8,4 +8,10 @@
 * a|b Matches either what is before the | or what is after it - in this case `a` or `b`. You can use alternates locally as part of a
   capturing/non-capturing group. For example: /I love (?:cats|dogs) but hate snakes/
 */
-// [abc]: A single character of a...
+/* ***********SPECIAL CHARACTERS****************
+* '+' The one-or-many quantifier
+* '\' The escape character
+* '[]' The character set
+* '[^]' The negate symbol in a character set
+*/
+
