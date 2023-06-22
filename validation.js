@@ -5,5 +5,7 @@
 * [^a-z] Matches any characters except those in the range a-z.
 * [a-zA-Z] Matches any characters between a-z or A-Z. You can combine as much as you please.
 * . Matches any character other than newline (or including line terminators with the /s flag). Example: (/.+/
+* a|b Matches either what is before the | or what is after it - in this case `a` or `b`. You can use alternates locally as part of a
+  capturing/non-capturing group. For example: /I love (?:cats|dogs) but hate snakes/
 */
 // [abc]: A single character of a...
