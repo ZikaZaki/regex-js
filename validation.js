@@ -13,5 +13,8 @@
 * '\' The escape character
 * '[]' The character set
 * '[^]' The negate symbol in a character set
+* '?' The zero-or-one quantifier (makes a preceding char optional)
+* '.' Any character whatsoever (except the newline character)
+* '*' The 0-or-more quantifier (a bit like +)
 */
 
