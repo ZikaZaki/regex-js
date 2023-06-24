@@ -1,3 +1,7 @@
+* {
+    box-sizing: box;
+}
+
 body{
     font-family: arial;
     color: #333;
