@@ -28,7 +28,12 @@ const inputs = document.querySelectorAll("input");
 
 // Validation function
 function validate(field, regex) {
-  console.log(regex.test(field.value));
+  // console.log(regex.test(field.value));
+  if(regex.test(field.value)) {
+    field.className = "valid";
+  } else {
+    field.className = "invalid";
+  }
 }
 
 // Add eventListner to each input
