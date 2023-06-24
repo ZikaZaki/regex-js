@@ -34,7 +34,8 @@ function validate(field, regex) {
 // Add eventListner to each input
 inputs.forEach((input) => {
   input.addEventListener("keyup", (e) => {
-    console.log("Clicked");
+    // console.log("Clicked");
+    validate(e.target, patterns[e.target.attributes.name.value]);
   });
 });
 
