@@ -26,3 +26,9 @@ var regex = new RegEx(/[a-z]/, "i");
 // DOM inputs
 const inputs = document.querySelectorAll("input");
 
+// Add eventListner to each input
+inputs.forEach((input) => {
+  input.addEventListener("keyup", (e) => {
+    console.log("Clicked");
+  });
+});
