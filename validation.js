@@ -19,3 +19,5 @@
 * '*' The 0-or-more quantifier (a bit like +)
 */
 
+// Validate script here
+var reg = /[a-z]/g
