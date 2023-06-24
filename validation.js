@@ -26,6 +26,11 @@ var regex = new RegEx(/[a-z]/, "i");
 // DOM inputs
 const inputs = document.querySelectorAll("input");
 
+// regex patterns
+const patterns = {
+  telephone: /^\d{11}$/,
+};
+
 // Validation function
 function validate(field, regex) {
   // console.log(regex.test(field.value));
