@@ -22,3 +22,7 @@
 // Validate script here
 var reg = /[a-z]/ig;
 var regex = new RegEx(/[a-z]/, "i");
+
+// DOM inputs
+const inputs = document.querySelectorAll("input");
+
