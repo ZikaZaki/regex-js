@@ -20,4 +20,4 @@
 */
 
 // Validate script here
-var reg = /[a-z]/g
+var reg = /[a-z]/ig
