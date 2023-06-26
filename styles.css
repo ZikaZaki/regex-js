@@ -38,3 +38,20 @@ input.valid{
 input.invalid{
   border-color: #DA2A2A;
 }
+
+input + p{
+  font-family: arial;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 10px;
+  color: #E04C4C;
+  opacity: 0;
+  height: 0;
+}
+
+input.invalid + p{
+  opacity: 1;
+  height: auto;
+  margin-bottom: 20px;
+}
