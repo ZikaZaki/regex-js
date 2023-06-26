@@ -38,11 +38,13 @@ const patterns = {
 // Validation function
 function validate(field, regex) {
   // console.log(regex.test(field.value));
-  if(regex.test(field.value)) {
-    field.className = "valid";
-  } else {
-    field.className = "invalid";
-  }
+  // if(regex.test(field.value)) {
+  //   field.className = "valid";
+  // } else {
+  //   field.className = "invalid";
+  // }
+
+  field.className = regex.test(field.value) ? "valid" : "invalid";
 }
 
 // Add eventListner to each input
