@@ -34,3 +34,7 @@ input {
 input.valid{
   border-color: #36cc36;
 }
+
+input.invalid{
+  border-color: #DA2A2A;
+}
