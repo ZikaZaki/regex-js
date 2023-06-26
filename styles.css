@@ -31,15 +31,15 @@ input {
 }
 
 /* Validation Styles  */
-input.valid{
+input.valid {
   border-color: #36cc36;
 }
 
-input.invalid{
+input.invalid {
   border-color: #DA2A2A;
 }
 
-input + p{
+input + p {
   font-family: arial;
   font-size: 0.9em;
   font-weight: bold;
@@ -50,7 +50,7 @@ input + p{
   height: 0;
 }
 
-input.invalid + p{
+input.invalid + p {
   opacity: 1;
   height: auto;
   margin-bottom: 20px;
