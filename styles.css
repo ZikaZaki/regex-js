@@ -30,4 +30,7 @@ input {
   outline: none !important;
 }
 
-
+/* Validation Styles  */
+input.valid{
+  border-color: #36cc36;
+}
